@@ -9,6 +9,8 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .cards {
   width: 250px;
@@ -34,7 +36,7 @@ section {
 }
 .details p:nth-child(2) {
   color: grey;
-  font-size: 0.8rem;
+  font-size: 1rem;
   
 }
 .details p:nth-child(3) {
@@ -42,10 +44,12 @@ section {
   color: grey;
 }
 .details button {
+  margin-top: 15px;
   border-radius: 5px;
   padding: 10px 15px;
   border: none;
+  color: #ffff;
   font-weight: bold;
-  background-color: rgb(126, 242, 140);
+  background-color: #FF7A50;
   outline: none;
 }
